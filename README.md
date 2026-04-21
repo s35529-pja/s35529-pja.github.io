@@ -3,7 +3,16 @@
 <head>STRONA DOMINIKI</head>
 <p><b>HELLO EVERYONE!</b></p>
 
-<p>nie wiem troszkę co tu napisać, mogę powiedzieć że lubię naleśniki</p>
+<p>zadanie nr 1, postaram się coś ładnie napisać</p>
 <i>tyle the creator jest mega cool</i>
 
-<p>mam wrażenie, że ciężko mi się będzie z tym pracować ale trzeba się będzie postarać</p>
+<p><b>przepis na zupę szparagową</b></p>
+<i>potrzebne składniki</i>
+<p>
+- szparagi
+- dymka
+- czosnek
+- przyprawy
+- śmietanka 30%
+</p>
+<i>sposób przygotowania</i>
