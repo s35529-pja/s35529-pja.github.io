@@ -9,7 +9,7 @@
 <p><b>przepis na zupę szparagową</b></p>
 <i>potrzebne składniki</i>
 <p>
-- szparagi
+- szparagi<br>
 - dymka
 - czosnek
 - przyprawy
