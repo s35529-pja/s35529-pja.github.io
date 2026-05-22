@@ -218,3 +218,17 @@ a {
     max-width: 80%;
     padding: 30px;
 }
+
+.photos {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+
+}
+
+.press {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+
+}
