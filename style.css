@@ -3,19 +3,47 @@ body {
 
 }
 
-header {
+
+.header1 {
     text-align: center;
     font-size: 40px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    background-color: rgb(178, 178, 245);
+    background-color: rgb(219, 195, 165);
     color: antiquewhite;
     padding: 8px;
     gap: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
 
+.header2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(211, 144, 135);
+    color: antiquewhite;
+    padding: 8px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(86, 99, 220);
+    color: antiquewhite;
+    padding: 8px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .class {
@@ -37,7 +65,7 @@ h4 {
     margin: 0%;
 }
 
-#id {
+.album {
     font-size: 24px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -52,21 +80,34 @@ h4 {
     flex-direction: row;
 }
 
-.end {
-    background-color: rgb(178, 178, 245);
-    color: rgb(30, 30, 30);
+.end1 {
+    background-color: rgb(219, 195, 165);
+    color: rgb(0, 0, 0);
     display: flex;
-    justify-content: gap: 50px;
-    align-items: flex-start;
-    gap: 20px;
-    height: 60px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
 }
 
-.form {
-    transform: scale(1.2);
-    width: 500px;
-    margin: auto;
-    margin-bottom: 100px;
+.end2 {
+    background-color: rgb(211, 144, 135);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+
+.end3 {
+    background-color: rgb(86, 99, 220);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
 }
 
 input,
@@ -96,14 +137,20 @@ body {
     align-items: flex-start;
     display: 20px;
     flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 
 }
 
 .box2 {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     display: 20px;
     flex-direction: row-reverse;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 body {
@@ -140,8 +187,7 @@ a {
     font-size: 24px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    flex-direction: flexend;
-    text-align: center;
+    align-items: flex-end;
 }
 
 .left {
@@ -231,4 +277,37 @@ a {
     display: flex;
     margin-bottom: 60px;
 
+}
+
+.band1 {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: bold;
+    text-align: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.band2 {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: bold;
+    /* text-align: flex-end;
+    align-content: flex-end;
+    justify-content: center; */
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 5px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
 }

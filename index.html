@@ -10,31 +10,31 @@
 
 <body>
     <header>
-        <h1>The Marias</h1>
-        <a href="index2.html">
-            <h4>Członkowie</h4>
-        </a>
-        <a href="index3.html">
-            <h4>CINEMA</h4>
-        </a>
-        <a href="index4.html">
-            <h4>Submarine</h4>
-        </a>
+        <div class="header1">
+            <h1>The Marias</h1>
+            <div class="nav">
+                <a href="index2.html">
+                    <img src="photos/czlonkowie.svg" alt="Członkowie" width="300" height="100">
+                </a>
+                <a href="index3.html">
+                    <img src="photos/CINEMA.svg" alt="CINEMA" width="300" height="100">
+                </a>
+                <a href="index4.html">
+                    <img src="photos/submarine.svg" alt="Submarine" width="300" height="100">
+                </a>
+            </div>
+        </div>
     </header>
 
-    <div>
-        <a href="index2.html">
-            <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
-                <button class="button1">
-                    <img src="photos/Untitled_Artwork 3.png" width="450px" height="450px">
-                </button>
 
-            </div>
-    </div>
-    </a>
+    <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
+        <a href="index2.html" class="button1">
+            <img src="photos/Untitled_Artwork3.png" width="450" height="450" alt="The Marias grafika">
+        </a>
     </div>
 
-    <div id="album">Dowiedz się więcej o członkach zespołu!</div>
+
+    <div class="album">Dowiedz się więcej o członkach zespołu!</div>
 
     <div class="class">
         The Marías to amerykański zespół muzyczny,
@@ -56,67 +56,55 @@
             Artist.</u>
     </div>
 
-    <div id="album">Dowiedz się więcej o albumach!</div>
+    <div class="album">
+        Dowiedz się więcej o albumach!
+    </div>
 
     <div style="display: flex; gap: 20px; justify-content: center; flex-direction: row;">
 
-        <a href="index3.html">
+        <a href="index3.html" class="button2">
             <div class="container">
-                <button class="button2">
-                    <img src="photos/cinema2.png" width="270px" height="270px">
-                </button>
+                <img src="photos/cinema2.png" width="270" height="270" alt="album CINEMA">
             </div>
         </a>
 
 
 
-        <a href="index4.html">
+        <a href="index4.html" class="button3">
             <div class="container">
-                <button class="button3">
-                    <img src="photos/submarine2.png" width="270px" height="270px">
-                </button>
+                <img src="photos/submarine2.png" width="270" height="270" alt="album Submarine">
             </div>
         </a>
     </div>
 
-    <div class="class">
-        Chcesz się zapisać do grupy fanów The Marias? Wpisz swój <b>nick</b> oraz <b>adres e-mail</b>, na który
-        następnie dodamy Cię
-        na specjalną grupę!
+    <div style="display: flex; justify-content: center;margin: 50px 50px 50px 50px;">
+
+        <iframe data-testid="embed-iframe" style="width:100%; height:352px; border:0; border-radius:12px;"
+            src="https://open.spotify.com/embed/artist/2sSGPbdZJkaSE2AbcGOACx?utm_source=generator&theme=0"
+            allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+        </iframe>
+
     </div>
 
-    <div class="form">
-        <div id="id">Zapis do grupy fanów:</div>
-        <form action="/action_page.php">
-            <label for="nick">Nick</label><br>
-            <input type="text" id="nick" name="nick" value="hania123"><br>
-            <label for="email">E-Mail</label><br>
-            <input type="text" id="email" name="email" value="hania123@gmail.com"><br><br>
-            <input type="submit" value="Wyślij">
-        </form>
-    </div>
-
-    <div style="display: flex; justify-content: center;margin-bottom: 50px;">
-        <iframe data-testid="embed-iframe" style="border-radius:12px"
-            src="https://open.spotify.com/embed/artist/2sSGPbdZJkaSE2AbcGOACx?utm_source=generator&theme=0" width="100%"
-            height="352" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-    <div class="end">
-        <a href="https://www.youtube.com/channel/UChmZkdugBmAP_zpyzayv6VQ">
-            <img src="photos/youtube.svg" width="40px" height="40px">
+    <div class="end1">
+        <!-- <div > -->
+        <a href="https://www.youtube.com/channel/UChmZkdugBmAP_zpyzayv6VQ" target="_blank">
+            <img src="photos/youtube.svg" width="40" height="40" alt="Youtube">
         </a>
-        <a href="https://www.instagram.com/themarias/">
-            <img src="photos/instagram.svg" width="40px" height="40px">
+        <a href="https://www.instagram.com/themarias/" target="_blank">
+            <img src="photos/instagram.svg" width="40" height="40" alt="Instagram">
         </a>
-        <a href="https://www.facebook.com/themariasmp3/?locale=pl_PL">
-            <img src="photos/facebook.svg" width="40px" height="40px">
+        <a href="https://www.facebook.com/themariasmp3/?locale=pl_PL" target="_blank">
+            <img src="photos/facebook.svg" width="40" height="40" alt="Facebook">
         </a>
-        <a href="https://shop.themarias.us/en-uk">
-            <img src="photos/shop.svg" width="40px" height="40px">
+        <a href="https://shop.themarias.us/en-uk" target="_blank">
+            <img src="photos/shop.svg" width="40" height="40" alt="Shop">
         </a>
+        <!-- </div> -->
 
         <div id="footer">Dominika Kaczor s35529</div>
+
     </div>
 </body>
 
