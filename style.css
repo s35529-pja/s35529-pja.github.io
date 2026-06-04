@@ -69,6 +69,8 @@ h4 {
     font-size: 24px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
     text-align: center;
     justify-content: center;
     margin-bottom: 40px;
@@ -173,6 +175,53 @@ a {
     padding-top: 30px;
     margin-bottom: 50px;
 }
+
+.background1 {
+    background-color: rgb(219, 195, 165);
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.background2 {
+    background-color: rgb(211, 144, 135);
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.background3 {
+    background-color: rgb(86, 99, 220);
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.class {
+    text-align: center;
+    text-align: justify;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
 
 #album {
     font-size: 24px;
@@ -310,4 +359,10 @@ a {
     flex-direction: column;
     gap: 10px;
     margin-left: 20px;
+}
+
+.sound {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
 }

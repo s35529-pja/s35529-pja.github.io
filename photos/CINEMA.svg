@@ -3,22 +3,28 @@
   <!-- Generator: Adobe Illustrator 29.8.7, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
   <defs>
     <style>
-      .st0 {
-        font-family: ITCAvantGardePro-Bk, 'ITC Avant Garde Gothic Pro';
-        font-size: 12px;
-        letter-spacing: .17em;
+      .st0, .st1 {
+        isolation: isolate;
       }
 
-      .st0, .st1 {
+      .st2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .st2, .st1 {
         fill: #231f20;
       }
 
       .st1 {
-        stroke: #231f20;
-        stroke-miterlimit: 10;
+        font-family: ITCAvantGardePro-Bk, 'ITC Avant Garde Gothic Pro';
+        font-size: 17px;
+        letter-spacing: .17em;
       }
     </style>
   </defs>
-  <path class="st1" d="M46.8,42.52l-2.1-37.05c-.12-2.14,2.58-3.19,3.93-1.51l31.11,38.56h61.33c1.57,0,2.1,2.1.71,2.85l-45.58,17.11,54.3,42.92c1.2.66.46,2.49-.86,2.14l-78.01-31.2-24.04,24.67c-1.13,1.16-3.09.29-2.99-1.33l2.19-34.22L3.98,46.44c-1.57-.7-1.09-3.03.62-3.07l42.21-.85Z"/>
-  <text class="st0" transform="translate(84.15 34.9)"><tspan x="0" y="0">CINEMA</tspan></text>
+  <path class="st2" d="M45.29,45.53l-2.1-37.05c-.12-2.14,2.58-3.19,3.93-1.51l31.11,38.56h61.33c1.57,0,2.1,2.1.71,2.85l-45.58,17.11,54.3,42.92c1.2.66.46,2.49-.86,2.14l-78.01-31.2-24.04,24.67c-1.13,1.16-3.09.29-2.99-1.33l2.19-34.22L2.47,49.45c-1.57-.7-1.09-3.03.62-3.07l42.21-.85h0Z"/>
+  <g class="st0">
+    <text class="st1" transform="translate(64.42 21.81)"><tspan x="0" y="0">CINEMA</tspan></text>
+  </g>
 </svg>
