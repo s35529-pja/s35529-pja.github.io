@@ -6,13 +6,12 @@ body {
 
 .header1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 300%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     background-color: rgb(219, 195, 165);
     color: antiquewhite;
-    padding: 8px;
-    gap: 20px;
+    padding: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,13 +19,13 @@ body {
 
 .header2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 300%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     background-color: rgb(211, 144, 135);
     color: antiquewhite;
-    padding: 8px;
-    gap: 20px;
+    padding: 2%;
+    gap: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,13 +33,12 @@ body {
 
 .header3 {
     text-align: center;
-    font-size: 40px;
+    font-size: 300%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     background-color: rgb(86, 99, 220);
     color: antiquewhite;
-    padding: 8px;
-    gap: 20px;
+    padding: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,14 +47,14 @@ body {
 .class {
     text-align: center;
     text-align: justify;
-    font-size: 24px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     margin: auto;
-    max-width: 80%;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-bottom: 40px;
+    max-width: 90%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
 
 }
 
@@ -66,14 +64,14 @@ h4 {
 }
 
 .album {
-    font-size: 24px;
+    font-size: 250%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: italic;
     text-align: center;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 10%;
 }
 
 .container {
@@ -89,7 +87,7 @@ h4 {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    height: 80px;
+    height: 150%;
 }
 
 .end2 {
@@ -99,7 +97,7 @@ h4 {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    height: 80px;
+    height: 150%;
 }
 
 .end3 {
@@ -109,24 +107,7 @@ h4 {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    height: 80px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 15px;
-    font-size: 18px;
-}
-
-textarea {
-    height: 200px;
-}
-
-button {
-    padding: 15px 30px;
-    font-size: 18px;
-    justify-content: center;
+    height: 150%;
 }
 
 body {
@@ -136,23 +117,21 @@ body {
 
 .box1 {
     display: flex;
-    align-items: flex-start;
-    display: 20px;
+    align-items: center;
+    display: 100%;
     flex-direction: row;
-    margin-left: 20px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-left: 5%;
+    margin-bottom: 5%;
 
 }
 
 .box2 {
     display: flex;
-    align-items: flex-start;
-    display: 20px;
+    align-items: center;
+    display: 100%;
     flex-direction: row-reverse;
-    margin-right: 20px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 body {
@@ -163,77 +142,52 @@ a {
     background-color: hsl(226, 55, 24);
 }
 
-.class {
-    text-align: center;
-    text-align: justify;
-    font-size: 24px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    margin: auto;
-    max-width: 80%;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-bottom: 50px;
-}
 
 .background1 {
     background-color: rgb(219, 195, 165);
     border-radius: 12px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .background2 {
     background-color: rgb(211, 144, 135);
     border-radius: 12px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .background3 {
     background-color: rgb(86, 99, 220);
     border-radius: 12px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.class {
-    text-align: center;
-    text-align: justify;
-    font-size: 24px;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    margin: auto;
-    max-width: 80%;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
 #album {
-    font-size: 24px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20%;
 }
 
 #footer {
-    font-size: 24px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     align-items: flex-end;
@@ -246,21 +200,21 @@ a {
 
 .quote {
     font-style: italic;
-    font-size: 24px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     text-align: center;
     margin: auto;
     max-width: 80%;
-    margin-bottom: 30px;
+    margin-bottom: 6%;
 }
 
 .author {
-    font-size: 20px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     text-align: center;
     align-items: end;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 6%;
     max-width: 80%;
 }
 
@@ -274,7 +228,7 @@ a {
 }
 
 .button1:hover {
-    box-shadow: 0px 0px 10px 2px rgb(177, 172, 166);
+    box-shadow: 200% 200% 200% 200% rgb(177, 172, 166);
 }
 
 .button2 {
@@ -287,7 +241,7 @@ a {
 }
 
 .button2:hover {
-    box-shadow: 0px 0px 10px 2px hsl(359, 87%, 9%);
+    box-shadow: 200% 200% 200% 200% hsl(359, 87%, 9%);
 }
 
 .button3 {
@@ -300,45 +254,46 @@ a {
 }
 
 .button3:hover {
-    box-shadow: 0px 0px 10px 2px rgb(51, 53, 120);
+    box-shadow: 200% 200% 200% 200% rgb(51, 53, 120);
 }
 
 .text {
     text-align: center;
     text-align: justify;
-    font-size: 24px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     margin: auto;
     max-width: 80%;
-    padding: 30px;
+    padding: 6%;
 }
 
 .photos {
     justify-content: center;
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
 
 }
 
 .press {
     justify-content: center;
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
 
 }
 
 .band1 {
-    font-size: 36px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: bold;
     text-align: flex-start;
     align-content: flex-start;
     justify-content: center;
+    margin-left: 10%;
 }
 
 .band2 {
-    font-size: 36px;
+    font-size: 150%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: bold;
     /* text-align: flex-end;
@@ -346,23 +301,23 @@ a {
     justify-content: center; */
     justify-content: flex-end;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10%;
 }
 
 .nav {
     display: flex;
-    gap: 5px;
+    gap: 2%;
 }
 
 .box-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-left: 20px;
+    gap: 2%;
+    margin-left: 5%;
 }
 
 .sound {
     display: flex;
     justify-content: center;
-    margin: 50px 50px 50px 50px;
+    margin: 5% 5% 5% 5%;
 }
