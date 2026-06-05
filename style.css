@@ -176,6 +176,50 @@ a {
     padding-bottom: 5%;
 }
 
+.background4 {
+    background-color: rgb(186, 99, 87);
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.background5 {
+    background-color: rgb(153, 71, 61);
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.background6 {
+    background-color: rgb(59, 70, 175);
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.background7 {
+    background-color: rgb(40, 51, 146);
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 
 #album {
     font-size: 150%;
@@ -228,7 +272,7 @@ a {
 }
 
 .button1:hover {
-    box-shadow: 200% 200% 200% 200% rgb(177, 172, 166);
+    box-shadow: 0px 0px 20px rgb(177, 172, 166);
 }
 
 .button2 {
@@ -241,7 +285,7 @@ a {
 }
 
 .button2:hover {
-    box-shadow: 200% 200% 200% 200% hsl(359, 87%, 9%);
+    box-shadow: 0px 0px 20px hsl(359, 87%, 9%);
 }
 
 .button3 {
@@ -254,7 +298,7 @@ a {
 }
 
 .button3:hover {
-    box-shadow: 200% 200% 200% 200% rgb(51, 53, 120);
+    box-shadow: 0px 0px 20px rgb(51, 53, 120);
 }
 
 .text {
@@ -289,6 +333,8 @@ a {
     text-align: flex-start;
     align-content: flex-start;
     justify-content: center;
+    font-weight: bold;
+    font-style: italic;
     margin-left: 10%;
 }
 
@@ -301,6 +347,8 @@ a {
     justify-content: center; */
     justify-content: flex-end;
     text-align: right;
+    font-weight: bold;
+    font-style: italic;
     margin-right: 10%;
 }
 
