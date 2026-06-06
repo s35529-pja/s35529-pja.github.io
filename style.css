@@ -4,6 +4,9 @@ body {
 
 }
 
+#title {
+    width: 20%;
+}
 
 .header1 {
     text-align: center;
@@ -13,12 +16,12 @@ body {
     background-color: rgb(219, 195, 165);
     color: antiquewhite;
     padding: 2%;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: no-wrap;
 }
 
 .header2 {
@@ -29,12 +32,15 @@ body {
     background-color: rgb(211, 144, 135);
     color: antiquewhite;
     padding: 2%;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: no-wrap;
+
+
 }
 
 .header3 {
@@ -45,12 +51,13 @@ body {
     background-color: rgb(86, 99, 220);
     color: antiquewhite;
     padding: 2%;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: no-wrap;
 
 }
 
@@ -364,7 +371,16 @@ a {
 
 .nav {
     display: flex;
-    gap: 2%;
+    gap: auto;
+    width: 78%;
+}
+
+.nav1 {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .box-container {
