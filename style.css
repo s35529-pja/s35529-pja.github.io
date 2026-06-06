@@ -12,9 +12,12 @@ body {
     background-color: rgb(219, 195, 165);
     color: antiquewhite;
     padding: 2%;
-    display: flex;
     flex-direction: row;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header2 {
@@ -25,10 +28,12 @@ body {
     background-color: rgb(211, 144, 135);
     color: antiquewhite;
     padding: 2%;
-    gap: 5%;
-    display: flex;
     flex-direction: row;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header3 {
@@ -39,9 +44,13 @@ body {
     background-color: rgb(86, 99, 220);
     color: antiquewhite;
     padding: 2%;
-    display: flex;
     flex-direction: row;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 
 .class {
