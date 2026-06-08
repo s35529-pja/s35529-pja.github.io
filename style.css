@@ -141,7 +141,7 @@ body {
 .box2 {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 95%;
     flex-direction: row-reverse;
     margin-right: 5%;
     margin-bottom: 5%;
