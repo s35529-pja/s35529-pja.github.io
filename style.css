@@ -368,7 +368,6 @@ body {
     display: flex;
     gap: 2px;
     flex-wrap: nowrap;
-    /*justify-content: flex-end;*/
     align-items: center;
 }
 
